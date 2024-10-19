@@ -1,1 +1,3 @@
-# Video-Gen-Project
+# Video Generation Project
+
+Work in Progress
