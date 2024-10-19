@@ -1,6 +1,5 @@
-# Logs
-logs
-*.log
+# Node.js modules
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -45,24 +44,9 @@ dist/
 # Server logs
 logs/
 *.log
+logs/*
 
-# Dependency directories for the client
-client/node_modules/
-
-# React build output
-client/build/
-
-# Storybook
-storybook-static/
-
-# VSCode files
-.vscode/
-.vscode/*
-
-# Mac system files
-.DS_Store
-
-# dotenv environment variable files
+# Environment variables
 .env
 .env.local
 .env.development.local
@@ -78,16 +62,40 @@ dump/
 *.sql
 *.tgz
 
-# Jest
-jest/
-jest-cache/
-jest-coverage/
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
-# Miscellaneous
+# Temporary files
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REACT files
+.DS_Store
+.vscode/
+
+# Ignore .next/ for Next.js projects
+.next/
+
+# Ignore storybook files
+.storybook/
+.storyshots/
+storybook-static/
+
+# Ignore IDE-specific files
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.iml
 
-# Yarn
-.yarn/
-.pnp.*
+# Ignore compiled typescript output
+*.tsbuildinfo
