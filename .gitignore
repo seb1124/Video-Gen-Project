@@ -72,7 +72,6 @@ storybook-static/
 # MongoDB data and dump files
 dump/
 *.lock
-*.json
 *.csv
 *.sqlite
 *.sql
