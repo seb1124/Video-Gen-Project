@@ -23,7 +23,7 @@ coverage
 
 # Dependency directories
 node _modules/
-#jspm_packages/
+jspm_packages/
 
 # Optional eslint cache
 .eslintcache
@@ -71,6 +71,7 @@ storybook-static/
 
 # MongoDB data and dump files
 dump/
+*.json
 *.lock
 *.csv
 *.sqlite
