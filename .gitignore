@@ -22,8 +22,8 @@ coverage
 .npm
 
 # Dependency directories
-node_modules/
-jspm_packages/
+node _modules/
+#jspm_packages/
 
 # Optional eslint cache
 .eslintcache
